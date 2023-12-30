@@ -23,5 +23,5 @@ Route::get('/book/edit', 'App\Http\Controllers\BookController@edit');
 Route::get('/book/update', 'App\Http\Controllers\BookController@update');
 Route::get('/book/delete', 'App\Http\Controllers\BookController@destroy');
 
-Route::get('item/create', 'App\Http\Controllers\ItemController@insertPage');
-Route::post('item/post', 'App\Http\Controllers\ItemController@insert');
+Route::get('/item/create', 'App\Http\Controllers\ItemController@insertPage');
+Route::post('/item/post', 'App\Http\Controllers\ItemController@insert');

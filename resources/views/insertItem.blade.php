@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('-','-', app()->getlocale()) }}">
+<html lang="{{str_replace('-','-', app()->getlocale())}}">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
 </head>
 
 <body class="antialiased">
-    <form action="{{ url('item/post') }}" method="post">
+    <form action="{{url('item/post')}}" method="post">
         @csrf
         <table style="border: 1px solid #000;">
             <tr>
